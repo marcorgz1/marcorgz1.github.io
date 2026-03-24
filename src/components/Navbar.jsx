@@ -18,11 +18,6 @@ export function Navbar() {
             url: '#experience'
         },
         {
-            id: 4,
-            title: 'Herramientas',
-            url: '#development_tools'
-        },
-        {
             id: 5,
             title: 'Proyectos',
             url: '#projects'

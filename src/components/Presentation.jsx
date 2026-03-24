@@ -1,3 +1,4 @@
+import { useState } from 'react'
 // import avatar from '../../assets/avatar.png';
 import avatar2 from '../../assets/avatar2.png';
 import UseAnimations from 'react-useanimations';
@@ -7,6 +8,8 @@ import linkedin from 'react-useanimations/lib/linkedin';
 import '../css/Presentation.css'
 
 export function Presentation() {
+    const [hovered, setHovered] = useState(false);
+
     return (
         <section id='presentation' className='presentation'>
             <img src={avatar2} alt="Avatar" className='presentation_image' />
@@ -24,7 +27,13 @@ export function Presentation() {
                     </p>
                 </div>
                 <div className='gradient_button'>
-                    <button>Disponible</button>
+                    <button
+                        onMouseEnter={() => setHovered(true)}
+                        onMouseLeave={() => setHovered(false)}                        
+                    >
+                        <span className='status_dot' />
+                        Disponible
+                    </button>
                 </div>
                 <div className='presentation_social_buttons'>
                     <a href='https://github.com/marcorgz1?tab=repositories' target='_blank' rel='noopener noreferrer' className="social_button">

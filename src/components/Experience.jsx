@@ -9,13 +9,13 @@ export function Experience () {
             title: 'Prácticas como técnico de reparación de dispositivos Apple',
             company: 'Rosellimac',
             year: '2022',
-            description: 'Reparación y mantenimiento de dispositivos Apple (Iphone, Macbooks, iMacs etc.)'
+            description: 'Reparación y mantenimiento de dispositivos Apple (iphones, macbooks, Imacs etc.)'
         },
         {
             title: 'Desarrollador Web Frontend',
             company: 'Autorepuestos Valdemoro',
             year: '2023',
-            description: 'Realización de aplicaciones web sencillas a distintos clientes.',
+            description: 'Realización de aplicaciones web sencillas y funcionales a diferentes clientes.',
             technologies: ['HTML', 'CSS', 'JavaScript', 'React']
         },
         {
