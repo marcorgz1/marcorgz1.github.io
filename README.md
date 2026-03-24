@@ -59,7 +59,7 @@ Los principales objetivos de este portfolio son:
 
 ---
 
-## 📸 Capturas
+## 📸 Previsualización
 
 ![portfolio preview](image.png)
 
@@ -88,9 +88,3 @@ npm run dev
 ## 📈 Estado
 
 🚧 Siempre en constante mejora añadiendo nuevas funcionalidades y proyectos innovadores.
-
----
-
-## ⭐ Nota final
-
-Si te gusta y tienes algún tipo de feedback, ¡estaré encantado de escucharlo!
